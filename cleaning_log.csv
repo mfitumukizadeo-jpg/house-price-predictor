@@ -1,7 +1,0 @@
-Problem found,Where,Action taken,Reason,Rows,House IDs
-Missing price,House_Price_Million_RWF,Dropped from the clean file,Nothing to plot or model,1,[1080]
-Missing area,Area_m2,Dropped from the clean file,Needed for the area/price relationship,2,"[1008, 1104]"
-Missing neighborhood,Neighborhood,Dropped from the clean file,Can't be assigned to a group,1,[1064]
-"Price outlier (> 288.9, 1.5*IQR)",House_Price_Million_RWF,Excluded from clean file,Distorts mean and correlations; may still be genuine,4,"[1073, 1092, 1107, 1114]"
-Suspect area (> 500 m2),Area_m2,Excluded from clean file,Likely typo (e.g. extra zero); can't verify true value,2,"[1006, 1019]"
-Duplicate row (ignoring ID),all columns,Dropped from the clean file,Same record entered twice,5,"[1011, 1026, 1041, 1011, 1026]"
